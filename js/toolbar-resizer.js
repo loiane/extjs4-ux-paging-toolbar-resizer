@@ -129,7 +129,10 @@ Ext.onReady(function(){
                     preview.toggleExpanded(pressed);
                 }
             }],
-            plugins : [new Ext.create('Ext.ux.PagingToolbarResizer',{options : [ 5, 10, 15, 20, 25 ]})]
+            plugins : [{
+				ptype: 'pagingtoolbarresizer', 
+				options : [ 5, 10, 15, 20, 25 ]
+			}]
         }),
         renderTo: 'topic-grid'
     });
