@@ -36,6 +36,8 @@
     })
  */
 Ext.define('Ext.ux.PagingToolbarResizer', {
+    extend: 'Ext.AbstractPlugin',
+    alias: 'plugin.pagingtoolbarresizer',
 
   /**
    * @cfg {Ext.data.Store} options
