@@ -92,7 +92,7 @@ Ext.define('Ext.ux.PagingToolbarResizer', {
       lazyRender:true,
       editable: false,
       mode: this.mode,
-      value: pagingToolbar.pageSize,
+      value: ptStore.pageSize,
       width:50,
       store: comboStore,
       listeners: {
