@@ -103,7 +103,7 @@ Ext.define('Ext.ux.PagingToolbarResizer', {
       }
     });
 
-    var index = pagingToolbar.items.indexOf(pagingToolbar.refresh);
+    var index = pagingToolbar.items.indexOf(pagingToolbar.items.map['refresh']);
     pagingToolbar.insert(++index, this.displayText);
     pagingToolbar.insert(++index, combo);
     pagingToolbar.insert(++index,'-');
