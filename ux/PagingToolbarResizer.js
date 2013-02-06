@@ -98,7 +98,7 @@ Ext.define('Ext.ux.PagingToolbarResizer', {
       listeners: {
         select: function(combo, value, i){
         	ptStore.pageSize = value[0].data.field1;
-        	ptStore.load();
+        	ptStore.loadPage(1);
         }
       }
     });
